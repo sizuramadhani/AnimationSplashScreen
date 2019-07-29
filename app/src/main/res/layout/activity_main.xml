@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:id="@+id/ll">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@mipmap/icon_logo" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/icon_ojk" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/icon_house" />
+
+        <ImageView
+            android:id="@+id/imgcloud1"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="120dp"
+            app:srcCompat="@mipmap/icon_cloud1" />
+
+        <ImageView
+            android:id="@+id/imgcloud2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="60dp"
+            app:srcCompat="@mipmap/icon_cloud2" />
+        <ImageView
+            android:id="@+id/imgcloud3"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="250dp"
+            app:srcCompat="@mipmap/icon_cloud3" />
+
+        <ImageView
+            android:id="@+id/car"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="250dp"
+            app:srcCompat="@mipmap/icon_car" />
+
+    </RelativeLayout>
+</RelativeLayout>
