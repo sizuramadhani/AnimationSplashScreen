@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 try {
                     sleep(4000);
-                    Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),BoardingScreen.class);
                     startActivity(intent);
                     finish();
                 } catch (InterruptedException e) {
